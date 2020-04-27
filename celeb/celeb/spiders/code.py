@@ -6,7 +6,7 @@ import re
 
 class QuoteSpider(scrapy.Spider):
 
-    name = 'actor'   #name of spider
+    name = 'actors'   #name of spider
 
     #state the list of urls you want to scrape
     start_urls = [
